@@ -18,3 +18,6 @@ export const nodemailer_Email=process.env.nodemailer_Email
 export const nodemailer_Pass=process.env.nodemailer_Pass
 export const WHITE_LIST=process.env.WHITE_LIST?.split(",")||[]
 export const DB_URI_ONLINE=process.env.DB_URI_ONLINE
+export const cloud_name=process.env.cloud_name
+export const api_key=process.env.api_key
+export const api_secret=process.env.api_secret
